@@ -20,7 +20,7 @@ module.exports = function(grunt) {
   grunt.registerMultiTask('zoompf', 'Grunt plugin to call the Zoompf API', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
-      testURLs: ['http://m.target.com/'],
+      testURLs: ['http://www.google.com/'],
       zoompf: 'http://wpo.zoompf.com/api/v1/BuildTimeScan.ashx'
     });
 
