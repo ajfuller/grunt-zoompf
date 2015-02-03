@@ -40,7 +40,7 @@ To run the task you must first provide your Zoompf API key as a node environment
 
 #### options.testURLs
 Type: `Array`
-Default value: `['http://m.target.com/']`
+Default value: `['http://www.google.com/']`
 
 An array to set the different URLs that you want Zoompf to test against
 
@@ -59,7 +59,7 @@ In this example, the default options are used to do something with whatever. So 
 grunt.initConfig({
   zoompf: {
     options: {
-        testURLs: ['http://m.target.com','http://m-perf.target.com']
+        testURLs: ['http://m.google.com','http://www.google.com']
     }
   },
 });
